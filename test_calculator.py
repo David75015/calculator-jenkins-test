@@ -1,6 +1,5 @@
 import pytest
 from calculator import addition, division
-import fake_library  
 
 def test_addition():
     assert addition(2, 3) == 5
